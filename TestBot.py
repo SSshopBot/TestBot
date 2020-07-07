@@ -19,7 +19,7 @@ def start_handler(message):
 
     keyboard.add(key_good_1, key_good_2);
 
-    bot.send_message(message.chat.id, "Выбирай, чем упороться:", reply_markup=keyboard);
+    bot.send_message(message.chat.id, "Выберите город", reply_markup=keyboard);
 
 
 
